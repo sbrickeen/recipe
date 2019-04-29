@@ -1,0 +1,98 @@
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 150%
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.history {
+	background-color: #BAA898;
+}
+
+.mid {
+	text-align: center;
+}
+
+.drk {
+	color: #280003;
+}
+
+.instructions {
+	background-color: #EEE0CB
+}
+
+.testimonials {
+	background-color: #C2847A
+}
+
+.pnk {
+	color: #C2847A;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.pry {
+	color: #EEE0CB;
+}
+
+.his {
+	color: #BAA898;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: 'Raleway', sans-serif; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #280003;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
